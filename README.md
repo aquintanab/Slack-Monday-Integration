@@ -1,1 +1,1 @@
-# Slack-Monday---Integration
+# Slack-Monday-Integration
