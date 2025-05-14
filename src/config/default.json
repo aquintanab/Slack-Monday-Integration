@@ -1,0 +1,24 @@
+// config/default.json
+
+{
+  "slack": {
+    "token": "xoxb-your-slack-token",
+    "signingSecret": "your-slack-signing-secret",
+    "triggerReaction": "eyes"
+  },
+  "monday": {
+    "token": "your-monday-api-token",
+    "boardId": 123456789,
+    "columnIds": {
+      "estado": "estado",
+      "fecha": "fecha",
+      "detalles": "detalles",
+      "slack_link": "slack_link",
+      "asignado_a": "asignado_a"
+    }
+  },
+  "server": {
+    "port": 3000
+  },
+  "logLevel": "info"
+}
