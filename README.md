@@ -84,7 +84,7 @@ Esta es una integración automatizada entre Slack y Monday para el equipo de Fee
 
 ## Funcionamiento
 
-1. Cuando un usuario añade el sticker configurado (por defecto: 👀) a un mensaje en Slack:
+1. Cuando un usuario añade el sticker configurado (por defecto: :yc-suspended:) a un mensaje en Slack:
    - La aplicación detecta el evento
    - Extrae la información del mensaje
    - Crea un nuevo ítem en el tablero de Monday con esa información
@@ -104,15 +104,3 @@ Esta es una integración automatizada entre Slack y Monday para el equipo de Fee
 - `/src/config`: Archivos de configuración
 - `/src/utils`: Utilidades y funciones auxiliares
 - `/docs`: Documentación adicional
-
-## Contribuir
-
-1. Hacer fork del repositorio
-2. Crear una rama para tu feature (`git checkout -b feature/amazing-feature`)
-3. Commit de tus cambios (`git commit -m 'Add some amazing feature'`)
-4. Push a la rama (`git push origin feature/amazing-feature`)
-5. Abrir un Pull Request
-
-## Licencia
-
-Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
