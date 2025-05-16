@@ -85,16 +85,6 @@ Este documento describe la arquitectura general y el flujo de datos de la integr
 }
 ```
 
-### Mapeo entre plataformas
-
-| Slack | Monday |
-|-------|--------|
-| Texto del mensaje | Columna "Título" y "Detalles" |
-| Usuario que añade la reacción | Columna "Asignado a" |
-| Timestamp del mensaje | Parte de la columna "Fecha" |
-| URL del mensaje | Columna "Link de Slack" |
-| Reacciones adicionales | Pueden mapear a etiquetas |
-
 ## Consideraciones técnicas
 
 ### Seguridad
