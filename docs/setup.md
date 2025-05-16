@@ -26,7 +26,7 @@ Para que la integración funcione correctamente, necesitas crear un tablero en M
 
 ### Stickers/Reacciones a configurar:
 
-- 👀 (`eyes`): Sticker principal para marcar un mensaje que debe ser registrado en Monday.
+- (`:yc-suspended:`): Sticker principal para marcar un mensaje que debe ser registrado en Monday.
 - Otros stickers opcionales:
   - 🔴 (`red_circle`): Para marcar partidos con alta prioridad.
   - 🟢 (`green_circle`): Para marcar partidos con baja prioridad.
