@@ -4,11 +4,11 @@
   "slack": {
     "token": "xoxb-your-slack-token",
     "signingSecret": "your-slack-signing-secret",
-    "triggerReaction": "eyes"
+    "triggerReaction": ":yc-suspended:"
   },
   "monday": {
-    "token": "your-monday-api-token",
-    "boardId": 123456789,
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjUxMjQzMDkyNCwiYWFpIjoxMSwidWlkIjo1NTYzNjczNCwiaWFkIjoiMjAyNS0wNS0xM1QyMToxMDo1MS4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6ODkxMjIsInJnbiI6InVzZTEifQ.VB8ajtVujFJi66MtLRlo5pLAhKp_p3dXZcv_4dT0qhQ",
+    "boardId": 8999922938,
     "columnIds": {
       "estado": "estado",
       "fecha": "fecha",
