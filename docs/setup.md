@@ -2,18 +2,7 @@
 
 ## Configuración del tablero en Monday
 
-Para que la integración funcione correctamente, necesitas crear un tablero en Monday con las siguientes columnas:
-
-### Columnas requeridas:
-
-| Nombre columna | Tipo de columna | ID de columna | Descripción |
-|---------------|----------------|--------------|-------------|
-| Título | Texto | nombre | Nombre o título del partido/evento |
-| Fecha | Fecha | fecha | Fecha del partido o del registro |
-| Estado | Estado | estado | Estado actual de la revisión (por ejemplo: "En revisión", "Completado", "Pendiente") |
-| Detalles | Texto largo | detalles | Descripción completa o detalles del partido |
-| Link de Slack | Texto | slack_link | URL del mensaje de Slack que originó el registro |
-| Asignado a | Persona | asignado_a | Persona responsable de la revisión |
+Para que la integración funcione correctamente, se necesita el tablero de Monday donde se va a subir la información.
 
 ### Estados sugeridos para la columna de "Estado":
 
@@ -64,7 +53,7 @@ Para subir la aplicación a Monday Code, sigue estos pasos:
 
 Antes de implementar en producción, realiza las siguientes pruebas:
 
-1. Añadir el sticker 👀 a un mensaje en Slack y verificar que se crea el ítem en Monday.
+1. Añadir el sticker a un mensaje en Slack y verificar que se crea el ítem en Monday.
 2. Cambiar el estado de un ítem en Monday y verificar que se actualiza el hilo en Slack.
 3. Verificar el manejo de casos especiales (mensajes ya registrados, errores de conexión, etc.).
 
