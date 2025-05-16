@@ -1,20 +1,16 @@
 {
-  "name": "slack-monday-integration",
+  "name": "slack-monday-integracion",
   "version": "1.0.0",
-  "description": "Integración automática entre Slack y Monday para el equipo de Feed Assurance",
+  "description": "Integración simple entre Slack y Monday",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "test": "jest",
-    "lint": "eslint src/**/*.js",
-    "deploy": "monday app publish"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "slack",
     "monday",
-    "integration",
-    "automation"
+    "integracion"
   ],
   "author": "Adriana Quintana",
   "license": "MIT",
@@ -23,12 +19,9 @@
     "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "monday-sdk-js": "^0.1.6",
-    "winston": "^3.8.2"
+    "monday-sdk-js": "^0.1.6"
   },
   "devDependencies": {
-    "eslint": "^8.35.0",
-    "jest": "^29.4.3",
     "nodemon": "^2.0.20"
   }
 }
